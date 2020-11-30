@@ -1,5 +1,5 @@
 
-FROM python:3.8-buster
+FROM arm32v7/python:3.9-buster
 
 ENV DB_HOST=localhost
 ENV DB_PORT=8086
